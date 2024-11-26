@@ -1,0 +1,17 @@
+history
+vim rbs.txt
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=9 && ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=2000 && ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=2 && ./a.out
+cat rbs.txt | ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=3 && ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=9000000 && ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=-10000 && ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=10000000 && ./a.out
+ulimit -a
+man fd
+man filedescriptor
+man file descriptor
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=1 && ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=100000 && ./a.out
+cc -Wall -Wextra -Wall get_next_line.c get_next_line_utils.c gnl_main.c -D BUFFER_SIZE=1000000 && ./a.out
